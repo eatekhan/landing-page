@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 12px; */
+    
+
+}
+
+.hero{
+    background-color: #1F2937;
+    padding: 0 64px;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+li,
+.sub-text{
+    list-style: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+ul {
+    display: flex;
+    gap:12px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.main-content{
+    width: 400px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.main-content button{
+    background-color:#3882F6;
+    border-radius: 12px;
+    padding: 8px;
+    color:white;
+    font-weight: 800;
+}
+.cards{
+    display: flex;
+}
+
+.cards img {
+    height: 80px;
+    width: auto;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+
+.container2 .title{
+    color:#1F2937;
+    text-align: center;
+    font-size: 32px;
+    margin:30px;
+
+}
+
+.container2{
+    padding: 0 80px;
+    margin:30px;
+    margin-bottom: 70px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+}
+
+.container3{
+    background-color: #E5E7EB;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    padding:40px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .quote{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+.container3 .author{
+    margin-left: auto;
+
+}
+
+.pop{
+    background-color: #3882F6;
+    margin:0;
+    padding: 20px 150px;
+    border-radius: 18px;
+    display: flex;
+    gap:100px;
+    text-wrap: nowrap;
+    align-items: center;
+}
+
+.main-text-title{
+    font-weight: bolder;
+
+}
+
+.container4 button{
+    border-radius: 18px;
+    background-color: #3882F6;
+    color:white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border:2px solid white;
+
+}
+.container4{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin:50px;
+} 
+
+.main-text{
+    color:#E5E7EB;
+    
+}
+
+.footer{
+    height:50px;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.footer div p {
+    
+    color:white;
+    font-weight: bold;
+    font-size:12px;
+    
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
